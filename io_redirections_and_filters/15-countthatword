@@ -1,2 +1,2 @@
 #!/bin/bash
-greep -cx "bin" /ect/passwd
+greep -c "bin" /ect/passwd
