@@ -1,2 +1,2 @@
 #!/bin/bash
-grep  "bin" /ect/passwd
+grep "bin" /ect/passwd
