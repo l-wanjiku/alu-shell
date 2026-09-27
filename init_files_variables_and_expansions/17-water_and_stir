@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%o\n' $((36#${WATER} + 30#${STIR}))
+awk 'NR%2'
