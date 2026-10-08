@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Checks file characteristics for a given file argument
+# Script that checks file characteristics of 'school' or the first argument passed
 
-filename="$1"
+filename="school"
+if [ -n "$1" ]; then
+    filename="$1"
+fi
 
 if [ -e "$filename" ]; then
     echo "$filename file exists"
