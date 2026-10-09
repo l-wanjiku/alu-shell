@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Displays PID and process name for processes containing bash using pgrep
 
-pgrep -l bash
+ps auxf | grep [b]ash
