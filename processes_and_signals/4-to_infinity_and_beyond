@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Indefinitely prints a message with a 2-second sleep interval
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
